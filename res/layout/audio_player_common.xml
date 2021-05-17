@@ -23,7 +23,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="30dp"
         android:background="#ff5a5a5a"
         android:paddingTop="1dip"
         android:paddingBottom="4dip"
@@ -45,10 +45,11 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="30dp"
             android:orientation="horizontal"
             android:layout_gravity="bottom"
             android:layout_marginTop="1dip"
+            android:paddingRight="40dp"
             android:layout_marginBottom="2dip"
             android:gravity="center">
 
@@ -82,8 +83,8 @@
         style="?android:attr/progressBarStyleHorizontal"
         android:layout_width="match_parent"
         android:layout_height="36dip"
-        android:paddingLeft="8dip"
-        android:paddingRight="8dip"
-        android:paddingBottom="4dip" />
+        android:paddingLeft="18dip"
+        android:paddingRight="18dip"
+        android:paddingBottom="14dip" />
 
 </merge>

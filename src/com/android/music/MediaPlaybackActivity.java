@@ -178,7 +178,7 @@ public class MediaPlaybackActivity extends Activity implements MusicUtils.Defs,
             return false;
         }
         if (action == MotionEvent.ACTION_DOWN) {
-            v.setBackgroundColor(0xff606060);
+            // v.setBackgroundColor(0xff606060);
             mInitialX = mLastX = (int) event.getX();
             mDraggingLabel = false;
         } else if (action == MotionEvent.ACTION_UP ||

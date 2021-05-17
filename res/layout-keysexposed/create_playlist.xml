@@ -45,12 +45,12 @@
         android:background="#ffffff" >
 
         <Button android:id="@+id/create"
-            android:layout_width="120dip" android:layout_height="wrap_content" 
+            android:layout_width="80dip" android:layout_height="wrap_content"
             android:text="@string/create_playlist_create_text"
             android:layout_alignParentLeft="true" />
 
         <Button android:id="@+id/cancel"
-            android:layout_width="120dip" android:layout_height="wrap_content" 
+            android:layout_width="80dip" android:layout_height="wrap_content"
             android:text="@string/cancel"
             android:layout_alignParentRight="true" />
 

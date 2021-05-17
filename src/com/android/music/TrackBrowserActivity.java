@@ -652,7 +652,7 @@ public class TrackBrowserActivity extends ListActivity
         if (mEditMode) {
             menu.add(0, REMOVE, 0, R.string.remove_from_playlist);
         }
-        menu.add(0, USE_AS_RINGTONE, 0, R.string.ringtone_menu);
+        // menu.add(0, USE_AS_RINGTONE, 0, R.string.ringtone_menu);
         menu.add(0, DELETE_ITEM, 0, R.string.delete_item);
         AdapterContextMenuInfo mi = (AdapterContextMenuInfo) menuInfoIn;
         mSelectedPosition =  mi.position;
